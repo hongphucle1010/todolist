@@ -1,0 +1,25 @@
+// Import Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+header{
+    background-color: aquamarine;
+    font-weight: bold;
+}
+
+main {
+    display: flex;
+    #main-area{
+        display: flex;
+        flex: 1;
+        justify-content: center;
+        align-items: center;
+        #notebook{
+            border-radius: 5px;
+            border: 5px solid orange;
+            border-top: 20px solid orange;
+            padding: 10px;
+            margin-top: 10px;
+            width: min(100%, 500px);
+        }
+    }
+}
